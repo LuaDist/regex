@@ -1,0 +1,10 @@
+--- This file is part of LuaDist project
+
+name = "regex"
+version = "3.8a"
+
+desc = "Henry Spencer's regular expressions library"
+author = "Henry Spencer"
+license = "see COPYRIGHT"
+maintainer = "Peter Kapec"
+url = "http://arglist.com/regex/"

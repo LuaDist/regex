@@ -1,0 +1,26 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Henry Spencer"
+desc = "Henry Spencer's regular expressions library"
+name = "regex"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/librxspencer.so]],
+}
+,
+Header = {
+[[include/regex.h]],
+}
+,
+Data = {
+[[share/regex/COPYRIGHT]],
+[[share/regex/README]],
+[[share/regex/WHATSNEW]],
+}
+,
+}
+
+license = "see COPYRIGHT"
+url = "http://arglist.com/regex/"
+version = "3.8a"
